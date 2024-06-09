@@ -70,4 +70,8 @@ $(document).ready(function(){
             }
         }
     });
+    
 });
+function sendMessage() {
+    window.location.href = "mailto:abhisawardekar21@example.com?subject=Contact%20from%20Portfolio&body=Hello%20Abhishek,%0D%0A%0D%0A";
+}

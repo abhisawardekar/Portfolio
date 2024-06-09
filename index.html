@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 <body>
@@ -42,7 +43,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Abhishek Sawardekar</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a href="#contact">Hire me</a>
             </div>
         </div>
     </section>
@@ -58,7 +59,7 @@
                 <div class="column right">
                     <div class="text">I'm Abhishek and I'm a <span class="typing-2"></span></div>
                     <p>Hello, I'm Abhishek Sawardekar, a Computer Engineering graduate from Gharda Institute of Technology. I am passionate about leveraging my technical skills to solve real-world problems and create innovative solutions. My academic background and hands-on experience have equipped me with a strong foundation in software development, system administration, and data analysis. I am eager to contribute my knowledge and skills to a dynamic and challenging work environment.</p>
-                    <a href="">Download CV</a>
+                    <a href="Resume\Abhishek Resume.pdf">Download CV</a>
                 </div>
             </div>
         </div>
@@ -78,14 +79,18 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
+                        <i class="material-icons">person</i>
                         <div class="text">Portfolio</div>
                         <p>A brief introduction about me, skills, projects i have done</p>
                     </div>
                 </div>
-                
+
                </div>
-               <button class="color-change-button" onclick="location.href='https://abhisawardekar.github.io/Shoes-Website-Design-/'">Live Demo</button>
+               <div class="live-button">
+                <button class="color-change-button2" onclick="location.href='https://abhisawardekar.github.io/Shoes-Website-Design-/'">Live Demo</button> 
+                <button class="color-change-button" onclick="location.href='https://abhisawardekar.github.io/Portfolio/'">Live Demo</button>
+               </div>
+               
                
             </div>
         </div>
@@ -228,7 +233,7 @@
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button type="submit" onclick="sendMessage()">Send message</button>
                         </div>
                     </form>
                 </div>
